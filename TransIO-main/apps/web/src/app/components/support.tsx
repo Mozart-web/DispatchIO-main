@@ -15,7 +15,7 @@ import { Textarea } from "./ui/textarea";
 import { useAppState } from "../context/app-state";
 import { toast } from "sonner";
 
-const supportEmail = "transioboard@gmail.com";
+const supportEmail = "mozartmoreka864@gmail.com";
 
 export function Support() {
   const { profile } = useAppState();

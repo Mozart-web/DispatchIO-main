@@ -4,6 +4,12 @@ Premium freight load board and dispatch workspace.
 
 ## Local Setup
 
+From the repository root, enter the web app directory first:
+
+```powershell
+cd TransIO-main/apps/web
+```
+
 1. Install dependencies:
 
 ```bash
@@ -25,7 +31,7 @@ npm run dev
 - Add the production URL and `https://your-domain.com/reset-password` to
   Supabase Auth redirect URLs.
 - Run `supabase/schema.sql` against the Supabase project.
-- Deploy `services/api` with `SUPABASE_SERVICE_ROLE_KEY`.
+- Deploy `TransIO-main/services/api` with `SUPABASE_SERVICE_ROLE_KEY`.
 - Set `VITE_API_BASE_URL` to the deployed API URL.
 - Create the first admin user in Supabase Auth and promote that profile to
   `admin` in `public.users`.
