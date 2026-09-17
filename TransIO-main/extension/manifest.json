@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "TransIO Collector",
+  "version": "1.0.0",
+  "description": "Collects loadboard rows and sends loads to the TransIO ingest API.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://one.dat.com/*",
+    "https://trans-io.com/*",
+    "https://www.trans-io.com/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*",
+    "https://transio-t20l.onrender.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://one.dat.com/search-loads*"],
+      "js": ["detailFetcher.js", "detailQueue.js", "content.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://trans-io.com/*",
+        "https://www.trans-io.com/*",
+        "http://localhost/*",
+        "http://127.0.0.1/*"
+      ],
+      "js": ["priorityBridge.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "TransIO Collector",
+    "default_popup": "popup.html"
+  }
+}
