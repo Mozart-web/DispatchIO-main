@@ -6,8 +6,7 @@
   "permissions": ["storage"],
   "host_permissions": [
     "https://one.dat.com/*",
-    "https://trans-io.com/*",
-    "https://www.trans-io.com/*",
+    "https://dispatch-io-main.vercel.app/*",
     "http://localhost/*",
     "http://127.0.0.1/*",
     "https://transio-t20l.onrender.com/*"
@@ -20,8 +19,7 @@
     },
     {
       "matches": [
-        "https://trans-io.com/*",
-        "https://www.trans-io.com/*",
+        "https://dispatch-io-main.vercel.app/*",
         "http://localhost/*",
         "http://127.0.0.1/*"
       ],

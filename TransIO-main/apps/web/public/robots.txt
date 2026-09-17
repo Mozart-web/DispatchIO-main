@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://trans-io.com/sitemap.xml
+Sitemap: https://dispatch-io-main.vercel.app/sitemap.xml
