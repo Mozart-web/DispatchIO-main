@@ -5,3 +5,4 @@ dist
 build
 apps/web/.env
 apps/web/dist
+.vercel
