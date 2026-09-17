@@ -110,17 +110,17 @@ const faqs = [
 const socialLinks = [
   {
     label: "Instagram",
-    href: "https://www.instagram.com/transio.loadboard?igsh=YjJhdXdha2VvNTUw",
+    href: "https://www.instagram.com/car.ib_bean/",
     icon: Instagram,
   },
   {
     label: "Telegram",
-    href: "https://t.me/trans_IO",
+    href: "https://t.me/earl_b",
     icon: Send,
   },
   {
     label: "TikTok",
-    href: "https://www.tiktok.com/@trans.io?_r=1&_t=ZS-96dVlPdqwY0",
+    href: "https://www.tiktok.com/@_.22yo",
     icon: Music2,
   },
 ];
